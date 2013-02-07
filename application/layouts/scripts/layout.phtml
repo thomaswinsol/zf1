@@ -1,7 +1,7 @@
 <!doctype>
 <html>    
     <head>
-        <title>Test layout</title>  
+        <title>ZF Opleiding</title>  
         <link href="/css/style.css" rel="stylesheet" />
     </head>
     
@@ -9,10 +9,11 @@
         <div id="container">
             <header>
                 <div id="logo">
-                    <img src="/images/logo.jpg" alt="" />
+                    <!---<img src="/images/logo.jpg" alt="" />--->
                 </div>
                               
                 <nav>
+                    <?php // door toe te voegen aan Zend_Registry ?>
                     <?php echo $this->navigation()->menu(); ?>   
                     <!---<ul>
                     <li><a href="/">Home</a></li>
